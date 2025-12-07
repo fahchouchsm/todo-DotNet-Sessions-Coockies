@@ -1,0 +1,53 @@
+<!-- Trigger Button -->
+<button type="button" class="btn btn-primary btn-lg mx-auto d-block mb-3" data-bs-toggle="modal" data-bs-target="#addTodoModal">
+  Add
+</button>
+
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="addTodoModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Add New Task</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <form method="post" action="/Todo/AddTodo">
+        <div class="modal-body">
+
+          <div class="mb-3">
+            <label class="form-label">Libelle</label>
+            <input name="Libelle" class="form-control" required />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Description</label>
+                        <textarea name="Description" class="form-control" required></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">State</label>
+            <select name="State" class="form-select" required>
+              <option selected value="1">Todo</option>
+              <option value="2">Doing</option>
+              <option value="3">Done</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Date Limit</label>
+            <input type="date" name="DateLimit" class="form-control" required />
+          </div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success">Save</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>

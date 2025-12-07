@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|c:\\users\\houssam\\documents\\mega\\ehei\\3.2\\c#\\todov2\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|solutionrelative:views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|c:\\users\\houssam\\documents\\mega\\ehei\\3.2\\c#\\todov2\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|c:\\users\\houssam\\documents\\mega\\ehei\\3.2\\c#\\todov2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|c:\\users\\houssam\\documents\\mega\\ehei\\3.2\\c#\\todov2\\views\\todo\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|solutionrelative:views\\todo\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|c:\\users\\houssam\\documents\\mega\\ehei\\3.2\\c#\\todov2\\data\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|solutionrelative:data\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|c:\\users\\houssam\\documents\\mega\\ehei\\3.2\\c#\\todov2\\enum\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|solutionrelative:enum\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Enum\\State.cs",
+              "RelativeDocumentMoniker": "Enum\\State.cs",
+              "ToolTip": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Enum\\State.cs",
+              "RelativeToolTip": "Enum\\State.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T20:11:38.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\data\\Todo.cs",
+              "RelativeDocumentMoniker": "data\\Todo.cs",
+              "ToolTip": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\data\\Todo.cs",
+              "RelativeToolTip": "data\\Todo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T19:57:55.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T19:21:33.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "Controllers\\TodoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T19:19:24.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Views\\Todo\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Todo\\index.cshtml",
+              "ToolTip": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Views\\Todo\\index.cshtml",
+              "RelativeToolTip": "Views\\Todo\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T19:23:48.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "add.cshtml",
+              "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Views\\Todo\\add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Todo\\add.cshtml",
+              "ToolTip": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Views\\Todo\\add.cshtml",
+              "RelativeToolTip": "Views\\Todo\\add.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T19:54:53.266Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

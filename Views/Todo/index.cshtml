@@ -1,0 +1,90 @@
+<div class="container mt-5">
+      <!-- Header -->
+      <h1 class="text-center mb-4 fw-bold">My Epic ToDo List</h1>
+
+      <partial name="add" />
+
+      <!-- List -->
+      <ul class="list-group shadow">
+        <!-- Todo state -->
+        <li
+          class="list-group-item d-flex align-items-center justify-content-between py-3"
+        >
+          <div class="d-flex align-items-center flex-grow-1">
+            <span class="badge bg-secondary rounded-pill me-3">Todo</span>
+            <span class="me-3">Buy groceries 🛒</span>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-outline-info me-2">
+              <i class="bi bi-pen"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-warning me-2">
+              <i class="bi bi-hourglass-split"></i> Doing
+            </button>
+            <button class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </li>
+
+        <!-- Doing state -->
+        <li
+          class="list-group-item d-flex align-items-center justify-content-between py-3"
+        >
+          <div class="d-flex align-items-center flex-grow-1">
+            <span class="badge bg-warning rounded-pill me-3">Doing</span>
+            <span class="me-3">Finish that report</span>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-outline-info me-2">
+              <i class="bi bi-pen"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-success me-2">
+              <i class="bi bi-check-lg"></i> Done
+            </button>
+            <button class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </li>
+
+        <!-- Done state -->
+        <li
+          class="list-group-item d-flex align-items-center justify-content-between py-3 task-done"
+        >
+          <div class="d-flex align-items-center flex-grow-1">
+            <span class="badge bg-success rounded-pill me-3">Done</span>
+            <span class="me-3">Hit the gym 💪</span>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-outline-info me-2">
+              <i class="bi bi-pen"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </li>
+
+        <!-- Another Todo -->
+        <li
+          class="list-group-item d-flex align-items-center justify-content-between py-3"
+        >
+          <div class="d-flex align-items-center flex-grow-1">
+            <span class="badge bg-secondary rounded-pill me-3">Todo</span>
+            <span class="me-3">Call grandma ❤️</span>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-outline-info me-2">
+              <i class="bi bi-pen"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-warning me-2">
+              <i class="bi bi-hourglass-split"></i> Doing
+            </button>
+            <button class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List App</title>
+    <!-- Bootstrap 5 + Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Strikethrough for Done -->
+    <style>
+      .task-done {
+        text-decoration: line-through;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container mt-5">
+      <!-- Header -->
+      <h1 class="text-center mb-4 fw-bold">My Epic ToDo List</h1>
+
+      <!-- Add task -->
+      <div class="input-group mb-4 shadow-sm">
+        <input
+          type="text"
+          class="form-control form-control-lg"
+          placeholder="Add a new task, champ..."
+        />
+        <button class="btn btn-primary btn-lg">Add</button>
+      </div>
+
+      <!-- List -->
+      <ul class="list-group shadow">
+        <!-- Todo state -->
+        <li
+          class="list-group-item d-flex align-items-center justify-content-between py-3"
+        >
+          <div class="d-flex align-items-center flex-grow-1">
+            <span class="badge bg-secondary rounded-pill me-3">Todo</span>
+            <span class="me-3">Buy groceries 🛒</span>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-outline-info me-2">
+              <i class="bi bi-pen"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-warning me-2">
+              <i class="bi bi-hourglass-split"></i> Doing
+            </button>
+            <button class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </li>
+
+        <!-- Doing state -->
+        <li
+          class="list-group-item d-flex align-items-center justify-content-between py-3"
+        >
+          <div class="d-flex align-items-center flex-grow-1">
+            <span class="badge bg-warning rounded-pill me-3">Doing</span>
+            <span class="me-3">Finish that report</span>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-outline-info me-2">
+              <i class="bi bi-pen"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-success me-2">
+              <i class="bi bi-check-lg"></i> Done
+            </button>
+            <button class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </li>
+
+        <!-- Done state -->
+        <li
+          class="list-group-item d-flex align-items-center justify-content-between py-3 task-done"
+        >
+          <div class="d-flex align-items-center flex-grow-1">
+            <span class="badge bg-success rounded-pill me-3">Done</span>
+            <span class="me-3">Hit the gym 💪</span>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-outline-info me-2">
+              <i class="bi bi-pen"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </li>
+
+        <!-- Another Todo -->
+        <li
+          class="list-group-item d-flex align-items-center justify-content-between py-3"
+        >
+          <div class="d-flex align-items-center flex-grow-1">
+            <span class="badge bg-secondary rounded-pill me-3">Todo</span>
+            <span class="me-3">Call grandma ❤️</span>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-outline-info me-2">
+              <i class="bi bi-pen"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-warning me-2">
+              <i class="bi bi-hourglass-split"></i> Doing
+            </button>
+            <button class="btn btn-sm btn-outline-danger">
+              <i class="bi bi-trash"></i>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
