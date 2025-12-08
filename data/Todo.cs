@@ -1,12 +1,12 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class Todo
+namespace todoV2.data
 {
-  [Required]
-  public string Libelle { get; set; }
-  public string Description { get; set; }
-  [Required]
-  public State State { get; set; }
-  [Required]
-  public DateTime DateLimit { get; set; }
+    public class Todo
+    {
+        public string Libelle { get; set; }
+        public string Description { get; set; }
+        public State State { get; set; }
+        public DateTime DateLimit { get; set; }
+    }
 }
