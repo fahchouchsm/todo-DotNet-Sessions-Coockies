@@ -1,4 +1,6 @@
-using todoV2.Services;
+using todoV2.Filters;
+using todoV2.Services.Auth;
+using todoV2.Services.SessionManager;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,9 @@ builder.Services.AddSession(options =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ISessionManagerService, SessionManagerService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<AuthFilter>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 var app = builder.Build();
 

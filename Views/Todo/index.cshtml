@@ -1,29 +1,56 @@
+﻿@{
+    var todos = ViewBag.todos as List<todoV2.data.Todo> ?? new List<todoV2.data.Todo>();
+    bool auth = ViewBag.auth ?? false;
+}
+
 <div class="container mt-5">
-      <!-- Header -->
       <h1 class="text-center mb-4 fw-bold">My Epic ToDo List</h1>
 
-      <partial name="add" />
+       @if (auth)
+        {
+            <partial name="add" />
+        }
+        else
+        {
+            <a asp-controller="Auth" asp-action="Login" class="btn btn-primary mb-4">
+                Login
+            </a>
+        }
 
-      <!-- List -->
       <ul class="list-group shadow">
-        <li
-          class="list-group-item d-flex align-items-center justify-content-between py-3"
-        >
-          <div class="d-flex align-items-center flex-grow-1">
-            <span class="badge bg-secondary rounded-pill me-3">Todo</span>
-            <span class="me-3">Buy groceries</span>
-          </div>
-          <div>
-            <button class="btn btn-sm btn-outline-info me-2">
-              <i class="bi bi-pen"></i>
-            </button>
-            <button class="btn btn-sm btn-outline-warning me-2">
-              <i class="bi bi-hourglass-split"></i> Doing
-            </button>
-            <button class="btn btn-sm btn-outline-danger">
-              <i class="bi bi-trash"></i>
-            </button>
-          </div>
-        </li>
+            @foreach(todoV2.data.Todo todo in todos)
+            {
+            <li class="list-group-item d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between py-3">
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center flex-grow-1 mb-2 mb-md-0">
+                    <span class="badge bg-secondary rounded-pill me-3 mb-1 mb-md-0">@todo.State</span>
+                    <div class="d-flex flex-column">
+                        <span class="fw-bold">@todo.Libelle</span>
+                        @if (todo.Description != null)
+                        {
+                            <span class="text-muted small">@todo.Description</span>
+                        }
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2">
+                    <span class="text-muted small me-2">
+                        Due: @todo.DateLimit.ToString("dd MMM yyyy")
+                    </span>
+                    <span class="text-muted small me-2">
+                        Created: @todo.AddedTime.ToString("dd MMM yyyy")
+                    </span>
+                    <button class="btn btn-sm btn-outline-info me-2">
+                        <i class="bi bi-pen"></i>
+                    </button>
+                    <form asp-controller="Todo" asp-action="DeleteTodo" method="post">
+                        <input type="hidden" name="id" value="@todo.id" />
+                        <button type="submit" class="btn btn-sm btn-outline-danger">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </form>
+                </div>
+            </li>
+
+            }
       </ul>
     </div>

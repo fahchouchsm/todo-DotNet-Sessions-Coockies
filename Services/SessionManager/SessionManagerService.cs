@@ -1,7 +1,6 @@
 ﻿using System.Text.Json;
-using todoV2.data;
 
-namespace todoV2.Services
+namespace todoV2.Services.SessionManager
 {
     public class SessionManagerService: ISessionManagerService
     {
@@ -12,7 +11,7 @@ namespace todoV2.Services
             _contextAccessor = contextAccessor;
         }
 
-        public void addSession(Object obj,String sessionName)
+        public void addSession(object obj,string sessionName)
         {
 
             _contextAccessor.HttpContext!.Session.SetString(sessionName, JsonSerializer.Serialize(obj));
@@ -25,5 +24,9 @@ namespace todoV2.Services
         }
 
 
+        public void deleteSession(string sessionName)
+        {
+            _contextAccessor.HttpContext!.Session.Remove(sessionName);
+        }
     }
 }
