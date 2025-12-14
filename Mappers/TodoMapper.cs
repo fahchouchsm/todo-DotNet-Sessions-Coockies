@@ -15,5 +15,17 @@ namespace todoV2.Mappers
                 State = vm.State
             };
         }
+
+        public static Todo getTodoFromTodoEditVM(TodoEditVm vm)
+        {
+            return new Todo
+            {
+                id = vm.id,
+                Libelle = vm.Libelle,
+                Description = vm.Description,
+                DateLimit = vm.DateLimit,
+                State = vm.State
+            };
+        }
     }
 }

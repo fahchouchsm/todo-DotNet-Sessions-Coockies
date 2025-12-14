@@ -5,6 +5,7 @@ using todoV2.Mappers;
 using todoV2.Services.SessionManager;
 using todoV2.Filters;
 using todoV2.Services.Auth;
+using todoV2.Constant;
 
 namespace todoV2.Controllers
 {
@@ -25,6 +26,27 @@ namespace todoV2.Controllers
             ViewBag.todos = todos;
             ViewBag.auth = _authService.isAuth();
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult EditTodo(TodoEditVm vm)
+        {
+            if(!ModelState.IsValid)
+            {
+                return RedirectToAction("Index");
+            }
+            Todo todo = TodoMapper.getTodoFromTodoEditVM(vm);
+            List<Todo> listFromSession = _sessionManager.getFromSession<List<Todo>>("todos");
+            for (int i = 0; i < listFromSession.Count; i++)
+            {
+                if(listFromSession[i].id == vm.id)
+                {
+                    listFromSession[i] = todo;
+                    break;
+                }
+            }
+            _sessionManager.addSession(listFromSession, "todos");
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -54,7 +76,8 @@ namespace todoV2.Controllers
             return RedirectToAction(nameof(TodoController.Index));
         }
 
-        [ServiceFilter(typeof(AuthFilter))]
+        [LoggerFilter]
+        [TypeFilter(typeof(AuthFilter))]
         [HttpPost]
         public IActionResult DeleteTodo(int id)
         {
@@ -70,6 +93,8 @@ namespace todoV2.Controllers
             }
             todos.Remove(todo);
             _sessionManager.addSession(todos, "todos");
+
+            HttpContext.Items[LoggerFilterKeys.deleteTodo] = todo;
             return RedirectToAction(nameof(TodoController.Index));
         }
     }

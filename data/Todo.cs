@@ -10,5 +10,12 @@ namespace todoV2.data
         public State State { get; set; }
         public DateTime DateLimit { get; set; }
         public DateTime AddedTime { get; set; } = DateTime.Now;
+
+
+        public override string ToString()
+        {
+            return $"Todo [Id={id}, Libelle={Libelle}, Description={Description}, State={State}, DateLimit={DateLimit}, AddedTime={AddedTime}]";
+        }
+
     }
 }

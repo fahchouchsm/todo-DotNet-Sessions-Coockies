@@ -5,19 +5,25 @@ using todoV2.Services.Auth;
 
 namespace todoV2.Filters
 {
-    public class AuthFilter: IAuthorizationFilter
+    public class AuthFilter : ActionFilterAttribute
     {
         private readonly IAuthService _authService;
-        public AuthFilter(IAuthService authService) {
-            this._authService = authService;
+
+        public AuthFilter(IAuthService authService)
+        {
+            _authService = authService;
         }
 
-        public void OnAuthorization(AuthorizationFilterContext filterContext)
-        { 
-            if(!_authService.isAuth())
+        public override void OnActionExecuting(ActionExecutingContext context)
+        {
+            if (!_authService.isAuth())
             {
-                 filterContext.Result = new RedirectToActionResult(nameof(AuthController.Login), "Auth", null);
+                context.Result = new RedirectToActionResult(
+                    nameof(AuthController.Login), "Auth", null
+                );
             }
+
+            base.OnActionExecuting(context);
         }
     }
 }
