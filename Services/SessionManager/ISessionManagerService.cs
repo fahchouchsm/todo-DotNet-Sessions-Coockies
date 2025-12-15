@@ -5,6 +5,7 @@
         public void addSession(object obj, string sessionName);
         public T? getFromSession<T>(string sessionName);
         public void deleteSession(string sessionName);
+        public string getString(string sessionName);
 
     }
 }

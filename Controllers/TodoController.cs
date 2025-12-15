@@ -9,6 +9,7 @@ using todoV2.Constant;
 
 namespace todoV2.Controllers
 {
+    [LoggerFilter]
     public class TodoController : Controller
     {
         private readonly ISessionManagerService _sessionManager;
@@ -46,6 +47,7 @@ namespace todoV2.Controllers
                 }
             }
             _sessionManager.addSession(listFromSession, "todos");
+            HttpContext.Items[LoggerFilterKeys.editTodo] = todo;
             return RedirectToAction("Index");
         }
 
@@ -73,10 +75,12 @@ namespace todoV2.Controllers
                 todos.Add(todo);
                 _sessionManager.addSession(todos, "todos");
             }
+
+            HttpContext.Items[LoggerFilterKeys.addTodo] = todo;
+
             return RedirectToAction(nameof(TodoController.Index));
         }
 
-        [LoggerFilter]
         [TypeFilter(typeof(AuthFilter))]
         [HttpPost]
         public IActionResult DeleteTodo(int id)

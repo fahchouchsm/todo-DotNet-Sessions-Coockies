@@ -122,5 +122,16 @@
         }
     </ul>
 
+    <button id="themeToggle" class="btn btn-outline-secondary">
+        <i class="bi bi-moon-stars"></i>
+    </button>
+
+    <script>
+        document.getElementById("themeToggle").addEventListener("click", () => {
+            fetch("/Theme/Toggle", { method: "GET" })
+                .then(() => location.reload());
+        });
+    </script>
+
 </div>
  
