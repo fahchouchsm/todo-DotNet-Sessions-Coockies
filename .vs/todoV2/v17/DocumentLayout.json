@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|c:\\users\\houssam\\documents\\mega\\ehei\\3.2\\c#\\todov2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|c:\\users\\houssam\\documents\\mega\\ehei\\3.2\\c#\\todov2\\logs\\actions_logs.log||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2A9F1445-817E-4BFC-AB20-DF69ACA798AC}|todoV2.csproj|solutionrelative:logs\\actions_logs.log||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -63,6 +67,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-15T16:28:12.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "actions_logs.log",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\logs\\actions_logs.log",
               "RelativeDocumentMoniker": "logs\\actions_logs.log",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ThemeController.cs",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Controllers\\ThemeController.cs",
               "RelativeDocumentMoniker": "Controllers\\ThemeController.cs",
@@ -83,12 +100,11 @@
               "RelativeToolTip": "Controllers\\ThemeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T15:31:14.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T15:31:14.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -96,12 +112,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-15T15:15:29.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T15:15:29.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoggerFilter.cs",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Filters\\LoggerFilter.cs",
               "RelativeDocumentMoniker": "Filters\\LoggerFilter.cs",
@@ -109,12 +124,11 @@
               "RelativeToolTip": "Filters\\LoggerFilter.cs",
               "ViewState": "AgIAABMAAAAAAAAAAADwvzIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T19:25:22.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T19:25:22.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -122,12 +136,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAUwCIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T19:15:20.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T19:15:20.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CoockiesSessionsKeys.cs",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Constant\\CoockiesSessionsKeys.cs",
               "RelativeDocumentMoniker": "Constant\\CoockiesSessionsKeys.cs",
@@ -135,12 +148,11 @@
               "RelativeToolTip": "Constant\\CoockiesSessionsKeys.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T15:40:52.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T15:40:52.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "index.cshtml",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Views\\Todo\\index.cshtml",
               "RelativeDocumentMoniker": "Views\\Todo\\index.cshtml",
@@ -148,12 +160,11 @@
               "RelativeToolTip": "Views\\Todo\\index.cshtml",
               "ViewState": "AgIAAGAAAAAAAAAAAAAUwIIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-14T17:15:47.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T17:15:47.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TodoController.cs",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
@@ -161,12 +172,11 @@
               "RelativeToolTip": "Controllers\\TodoController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T17:33:52.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T17:33:52.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SessionManagerService.cs",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Services\\SessionManager\\SessionManagerService.cs",
               "RelativeDocumentMoniker": "Services\\SessionManager\\SessionManagerService.cs",
@@ -174,12 +184,11 @@
               "RelativeToolTip": "Services\\SessionManager\\SessionManagerService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAzwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T20:41:06.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T20:41:06.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Services\\Auth\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\Auth\\AuthService.cs",
@@ -191,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TodoMapper.cs",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Mappers\\TodoMapper.cs",
               "RelativeDocumentMoniker": "Mappers\\TodoMapper.cs",
@@ -203,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "add.cshtml",
               "DocumentMoniker": "C:\\Users\\HOUSSAM\\Documents\\MEGA\\ehei\\3.2\\C#\\todoV2\\Views\\Todo\\add.cshtml",
               "RelativeDocumentMoniker": "Views\\Todo\\add.cshtml",
